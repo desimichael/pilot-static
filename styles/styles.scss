@@ -1,0 +1,43 @@
+@use './reset';
+@use '../components/components';
+@use './bootstrap/scss/bootstrap.scss';
+
+body {
+	background: #f8f8ff;
+}
+a {
+	&:hover {
+		color: whitesmoke;
+	}
+}
+.fixed-nav {
+	&.transparent-nav {
+		.header {
+			background: transparent;
+			a {
+				color: whitesmoke;
+				transition: all 0.3s ease-in-out;
+				&:hover {
+					color: #c69e71;
+				}
+			}
+			.header1__collection-link,
+			.header2__collection-link,
+			.header3__collection-link {
+				.collection-link__sub-links {
+					a {
+						color: #1b1b1b;
+						&:hover {
+							color: black;
+						}
+					}
+				}
+			}
+		}
+	}
+	.header {
+		position: fixed;
+		width: 100%;
+		z-index: 30;
+	}
+}
