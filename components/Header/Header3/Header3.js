@@ -4,11 +4,12 @@ export default function Header3() {
       <div className="header3__logo">
         <a href="/link">Pilot</a>
       </div>
-      <div className="header3__collections-nav">
-        <a href="/link" className="header3__collection-link">Link</a>
-        <a href="/link" className="header3__collection-link">Link</a>
-        <a href="/link" className="header3__collection-link">Link
-          <i className="fas fa-chevron-down"></i>
+      <ul className="header3__collections-nav">
+        <li className="header3__collection-link">
+          <a href="/link">
+            Link
+            <i className="fas fa-chevron-down"></i>
+          </a>
           <ul className="collection-link__sub-links">
             <li>
               <a href="#">SubLink</a>
@@ -25,10 +26,17 @@ export default function Header3() {
             <li>
               <a href="#">SubLink</a>
             </li>
-          </ul></a>
+          </ul>
+        </li>
+        <li className="header3__collection-link">
+          <a href="/link">Link</a>
+        </li>
+        <li className="header3__collection-link">
+          <a href="/link">Link</a>
+        </li>
         <a href="/cart"><i className="fas fa-shopping-cart"></i></a>
         <a href="/link"><i className="fas fa-user"></i></a>
-      </div>
+      </ul>
     </header>
   )
 }

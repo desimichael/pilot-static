@@ -1,10 +1,12 @@
 export default function Header1() {
   return (
     <header className="header header1">
-      <div className="header1__collections-nav">
-        <a href="/link" className="header1__collection-link">
-          Link
-          <i className="fas fa-chevron-down"></i>
+      <ul className="header1__collections-nav">
+        <li className="header1__collection-link">
+          <a href="/link">
+            Link
+            <i className="fas fa-chevron-down"></i>
+          </a>
           <ul className="collection-link__sub-links">
             <li>
               <a href="#">SubLink</a>
@@ -22,18 +24,23 @@ export default function Header1() {
               <a href="#">SubLink</a>
             </li>
           </ul>
-        </a>
-        <a href="/link" className="header1__collection-link">Link</a>
-        <a href="/link" className="header1__collection-link">Link</a>
-      </div>
+        </li>
+        <li className="header1__collection-link">
+          <a href="/link">Link</a>
+        </li>
+        <li className="header1__collection-link">
+          <a href="/link">Link</a>
+        </li>
+      </ul>
       <div className="header1__logo">
         <a href="/link">Pilot</a>
       </div>
-      <div className="header1__collections-nav">
-        <a href="/link" className="header1__collection-link">Link</a>
-        <a href="/link" className="header1__collection-link">Link</a>
-        <a href="/link" className="header1__collection-link">Link
-          <i className="fas fa-chevron-down"></i>
+      <ul className="header1__collections-nav">
+        <li className="header1__collection-link">
+          <a href="/link">
+            Link
+            <i className="fas fa-chevron-down"></i>
+          </a>
           <ul className="collection-link__sub-links">
             <li>
               <a href="#">SubLink</a>
@@ -50,10 +57,17 @@ export default function Header1() {
             <li>
               <a href="#">SubLink</a>
             </li>
-          </ul></a>
+          </ul>
+        </li>
+        <li className="header1__collection-link">
+          <a href="/link">Link</a>
+        </li>
+        <li className="header1__collection-link">
+          <a href="/link">Link</a>
+        </li>
         <a href="/cart"><i className="fas fa-shopping-cart"></i></a>
         <a href="/link"><i className="fas fa-user"></i></a>
-      </div>
+      </ul>
     </header>
   )
 }
