@@ -3,12 +3,7 @@
 @use './bootstrap/scss/bootstrap.scss';
 
 body {
-	background: #f8f8ff;
-}
-a {
-	&:hover {
-		color: whitesmoke;
-	}
+	background: #dcdcdc;
 }
 .fixed-nav {
 	&.transparent-nav {

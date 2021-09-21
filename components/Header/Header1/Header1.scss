@@ -11,11 +11,9 @@
 		text-transform: uppercase;
 		font-weight: 500;
 		color: #021927;
-		font-family: "Lato", sans-serif;
 		&:hover {
-			color: #777e83;
+			color: #c69e71;
 			transition: all 0.3s ease-in-out;
-			font-weight: 500;
 		}
 	}
 	&__collections-nav {
@@ -49,7 +47,7 @@
 				font-size: 0.9rem;
 				padding: 10px;
 				&:hover {
-					color: #1b1b1b;
+					color: #c69e71;
 					background: whitesmoke;
 				}
 			}

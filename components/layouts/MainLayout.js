@@ -5,8 +5,6 @@ import Header3 from '../Header/Header3/Header3';
 export default function MainLayout(props) {
   return (<div className="fixed-nav transparent-nav">
     <Header1 />
-    <Header2 />
-    <Header3 />
     <main>{props.children}</main>
   </div>
 
