@@ -45,8 +45,11 @@
 		color: #353839;
 		text-decoration: none;
 		font-size: 0.8rem;
-		transition: all 0.3s ease-in-out;
 		margin-bottom: 0.5rem;
+		&:hover {
+			color: #fefefe;
+			transition: all 0.3s ease-in-out;
+		}
 	}
 	&__extra {
 		display: flex;
@@ -70,7 +73,10 @@
 		display: block;
 		padding: 15px;
 		color: #353839;
-		transition: all 0.3s ease-in-out;
+		&:hover {
+			color: #fefefe;
+			transition: all 0.3s ease-in-out;
+		}
 	}
 	&__bottom {
 		border-top: 1px solid #353839;
@@ -87,6 +93,9 @@
 		font-size: 0.8rem;
 		text-decoration: none;
 		padding: 0 15px;
-		transition: all 0.3s ease-in-out;
+		&:hover {
+			color: #fefefe;
+			transition: all 0.3s ease-in-out;
+		}
 	}
 }
