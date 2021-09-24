@@ -3,6 +3,7 @@ import ShowLayout from '../components/layouts/ShowLayout';
 import Header1 from '../components/Header/Header1/Header1';
 import Header2 from '../components/Header/Header2/Header2';
 import Header3 from '../components/Header/Header3/Header3';
+import AnnounceBar from '../components/AnnounceBar/AnnounceBar';
 
 export default function Home() {
   return (<ShowLayout>
@@ -20,6 +21,9 @@ export default function Home() {
     </div>
     <div className="comp-space">
       <Header3 />
+    </div>
+    <div className="comp-space">
+      <AnnounceBar />
     </div>
   </ShowLayout>
   )
