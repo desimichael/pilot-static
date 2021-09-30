@@ -66,6 +66,9 @@
 		text-transform: capitalize;
 		font-family: "Lobster Two", cursive;
 	}
+	&__title--small {
+		font-size: 3rem;
+	}
 	&__paragraph {
 		margin-bottom: 2rem;
 		font-weight: 300;
