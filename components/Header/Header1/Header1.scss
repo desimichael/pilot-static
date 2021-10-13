@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: #1b1b1b;
+	color: #303030;
 	background: #fefefe;
 	padding: 0 10px;
 	height: 84px;
@@ -10,7 +10,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: 500;
-		color: #021927;
+		color: #303030;
 		&:hover {
 			color: #c69e71;
 			transition: all 0.3s ease-in-out;
@@ -39,16 +39,16 @@
 			left: 0;
 			padding: 15px 0;
 			background: #777e83;
-			box-shadow: whitesmoke;
+			box-shadow: #fefefe;
 			min-width: 150px;
 			a {
 				display: block;
-				color: #1b1b1b;
+				color: #303030;
 				font-size: 0.9rem;
 				padding: 10px;
 				&:hover {
 					color: #c69e71;
-					background: whitesmoke;
+					background: #fefefe;
 				}
 			}
 		}

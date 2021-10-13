@@ -50,10 +50,22 @@
 		align-items: center;
 	}
 	&__title {
-		font-size: 5rem;
+		font-size: 4.5rem;
 		color: #f5f5f5;
 		text-transform: capitalize;
 		font-family: "Lobster Two", cursive;
+	}
+	&__title--sm {
+		font-size: 2rem;
+	}
+	&__title--md {
+		font-size: 3rem;
+	}
+	&__title--lg {
+		font-size: 4.5rem;
+	}
+	&__title--xl {
+		font-size: 6rem;
 	}
 	&__paragraph {
 		margin-bottom: 2rem;
