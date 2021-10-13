@@ -20,7 +20,7 @@ export default function collection2() {
               <div className="collection2__product-info">
                 <div className="collection2__product-details">
                   <span className="collection2__product-title">
-                    Watch
+                    CHRONO GUNMETAL TAN
                   </span>
                   <span className="collection2__product-price">
                     $200

@@ -20,7 +20,7 @@ export default function Collection1() {
               <div className="collection1__product-info">
                 <div className="collection1__product-details">
                   <span className="collection1__product-title">
-                    Watch
+                    WATCH
                   </span>
                   <span className="collection1__product-price">
                     $200
@@ -49,7 +49,7 @@ export default function Collection1() {
               <div className="collection1__product-info">
                 <div className="collection1__product-details">
                   <span className="collection1__product-title">
-                    Watch
+                    WATCH
                   </span>
                   <span className="collection1__product-price">
                     $270
@@ -78,7 +78,7 @@ export default function Collection1() {
               <div className="collection1__product-info">
                 <div className="collection1__product-details">
                   <span className="collection1__product-title">
-                    Watch
+                    CHRONO GUNMETAL TAN
                   </span>
                   <span className="collection1__product-price">
                     $250
