@@ -5,15 +5,15 @@ export default function collection2() {
         <div className="row">
           <div className="col-md-6">
             <div className="collection2__collection-item">
+              <div className="collection2__heart">
+                <i className="far fa-heart"></i>
+              </div>
+              <div className="collection2__sale-banner">
+                <span className="collection2__sale collection2__sale--active">
+                  sale
+                </span>
+              </div>
               <div className="collection2__product-img">
-                <div className="collection2__heart">
-                  <i className="far fa-heart"></i>
-                </div>
-                <div className="collection2__sale-banner">
-                  <span className="collection2__sale">
-                    sale
-                  </span>
-                </div>
                 <img src="https://www.pngkey.com/png/full/134-1346637_classic-rose-gold-watch-radley-watch-rose-gold.png" alt="product1"
                 />
               </div>
@@ -35,15 +35,15 @@ export default function collection2() {
           </div>
           <div className="col-md-6">
             <div className="collection2__collection-item">
+              <div className="collection2__heart">
+                <i className="far fa-heart"></i>
+              </div>
+              <div className="collection2__sale-banner">
+                <span className="collection2__sale">
+                  sale
+                </span>
+              </div>
               <div className="collection2__product-img">
-                <div className="collection2__heart">
-                  <i className="far fa-heart"></i>
-                </div>
-                <div className="collection2__sale-banner">
-                  <span className="collection2__sale">
-                    sale
-                  </span>
-                </div>
                 <img src="https://www.pngkey.com/png/full/34-342528_breightling-watch-010516-womens-rolex-123015-analog-watch.png" alt="product2" />
               </div>
               <div className="collection2__product-info">

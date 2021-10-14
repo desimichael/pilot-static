@@ -5,15 +5,15 @@ export default function Collection1() {
         <div className="row">
           <div className="col-md-4">
             <div className="collection1__collection-item">
+              <div className="collection1__heart">
+                <i className="far fa-heart"></i>
+              </div>
+              <div className="collection1__sale-banner">
+                <span className="collection1__sale">
+                  sale
+                </span>
+              </div>
               <div className="collection1__product-img">
-                <div className="collection1__heart">
-                  <i className="far fa-heart"></i>
-                </div>
-                <div className="collection1__sale-banner">
-                  <span className="collection1__sale">
-                    sale
-                  </span>
-                </div>
                 <img src="https://www.pngkey.com/png/full/134-1346637_classic-rose-gold-watch-radley-watch-rose-gold.png" alt="product1"
                  />
               </div>
@@ -64,15 +64,15 @@ export default function Collection1() {
           </div>
           <div className="col-md-4">
             <div className="collection1__collection-item">
-              <div className="collection1__product-img">
-                <div className="collection1__heart">
-                  <i className="far fa-heart"></i>
-                </div>
-                <div className="collection1__sale-banner">
-                  <span className="collection1__sale">
-                    sale
-                  </span>
-                </div>
+              <div className="collection1__heart">
+                <i className="far fa-heart"></i>
+              </div>
+              <div className="collection1__sale-banner">
+                <span className="collection1__sale collection1__sale--active">
+                  sale
+                </span>
+              </div>
+              <div className="collection1__product-img collection1__product-img--rectangle">
                 <img src="https://www.pngkey.com/png/full/363-3632742_womens-summer-luxury-watches-audemars-piguet-royal-audemars.png" alt="product3" />
               </div>
               <div className="collection1__product-info">

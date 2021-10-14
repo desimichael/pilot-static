@@ -4,17 +4,88 @@
 	div[class*="col-"] {
 		margin-bottom: 1rem;
 	}
+
+	&__collection-item {
+		position: relative;
+		border: 1px solid #dcdcdc;
+	}
+	&__heart {
+		position: absolute;
+		background: #333333;
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		top: 10px;
+		right: 15px;
+		z-index: 2;
+			.fa-heart {
+				font-size: 1.2rem;
+				color: #fefefe;
+				padding: 7px;
+				cursor: pointer;
+				transition: all 0.5s ease-in-out;
+			&:hover {
+				color: #ff355e;
+				transform: scale(1.3);
+			}
+		}
+	}
+	&__sale-banner {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	&__sale {
+		position: absolute;
+		bottom: 85px;
+		right: 10px;
+		text-transform: uppercase;
+		font-size: 0.9rem;
+		padding: 2px 10px;
+		border-radius: 3px;
+		background: #36454f;
+		color: whitesmoke;
+		visibility: hidden;
+	}
+	&__sale--active {
+		visibility: visible;
+		z-index: 2;
+	}
+
 	&__product-img {
 		background: #dcdcdc;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		height: 400px;
+		height: 450px;
 		position: relative;
 		cursor: pointer;
 		overflow: hidden;
+		&--square {
+			width: 380px;
+			height: 380px;
+			margin: 3.5rem auto;
+		}
+		&--circle {
+			width: 380px;
+			height: 380px;
+			border-radius: 50%;
+			margin: 3.5rem auto;
+		}
+		&--rectangle {
+			width: 100%;
+			height: 450px;
+		}
+		.img-link {
+			display: block;
+			width: 70%;
+			height: 100%;
+		}
 		img {
-			max-width: 35%;
+			max-width: 50%;
 			margin-bottom: 10px;
 			transition: all 0.5s ease-in-out;
 			z-index: 1;
@@ -35,58 +106,10 @@
 			}
 		}
 	}
-	&__heart {
-		position: absolute;
-		background: white;
-		height: 40px;
-		width: 40px;
-		border-radius: 50%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		top: 10px;
-		right: 15px;
-		z-index: 2;
-			.fa-heart {
-				font-size: 1.2rem;
-				padding: 7px;
-				cursor: pointer;
-				transition: all 0.5s ease-in-out;
-			&:hover {
-				color: #ff355e;
-				transform: scale(1.3);
-			}
-		}
-	}
-	&__sale-banner {
-		display: flex;
-		justify-content: center;
-		align-items: flex-start;
-	}
-	&__sale {
-		position: absolute;
-		bottom: 10px;
-		right: 10px;
-		text-transform: uppercase;
-		font-size: 0.9rem;
-		padding: 2px 10px;
-		border-radius: 3px;
-		background: #36454f;
-		color: whitesmoke;
-		visibility: hidden;
-	}
-	&__sale--active {
-		visibility: visible;
-		z-index: 2;
-	}
 	&__product-info {
 		display: flex;
 		justify-content: space-between;
 		padding: 5px;
-		border: 1px solid #dcdcdc;
-		border-top: none;
-		border-bottom-left-radius: 2px;
-		border-bottom-right-radius: 2px;
 	}
 	&__product-details {
 		padding: 10px;

@@ -3,14 +3,14 @@
 @use './bootstrap/scss/bootstrap.scss';
 
 body {
-	background: #f8f8ff;
+	background: #fefefe;
 }
 .fixed-nav {
 	&.transparent-nav {
 		.header {
 			background: transparent;
 			a {
-				color: #f8f8ff;
+				color: #fefefe;
 				transition: all 0.3s ease-in-out;
 				&:hover {
 					color: #c69e71;
@@ -21,7 +21,7 @@ body {
 			.header3__collection-link {
 				.collection-link__sub-links {
 					a {
-						color: #f8f8ff;
+						color: #fefefe;
 						&:hover {
 							color: #333333;
 						}
