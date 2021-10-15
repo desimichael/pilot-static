@@ -18,7 +18,7 @@
 	&--aligned-left {
 		.hero1__content-container {
 			justify-content: flex-start;
-			padding-left: 3rem;
+			padding-left: 10rem;
 		}
 	}
 	&--aligned-center {
@@ -29,7 +29,7 @@
 	&--aligned-right {
 		.hero1__content-container {
 			justify-content: flex-end;
-			padding-right: 3rem;
+			padding-right: 10rem;
 		}
 	}
 	&__bg {
@@ -85,16 +85,16 @@
 	}
 	&__button {
 		width: 150px;
-		color: #f8f8ff;
-		background-color: #c69e71;
+		color: #333333;
+		background-color: #fefefe;
 		padding: 15px 30px;
 		text-align: center;
 		text-decoration: none;
 		font-weight: 700;
 		font-size: 0.9rem;
 		&:hover {
-			color: #c69e71;
-			background: #f8f8ff;
+			color: #fefefe;
+			background: #333333;
 			transition: all 0.3s ease-in-out;
 		}
 	}

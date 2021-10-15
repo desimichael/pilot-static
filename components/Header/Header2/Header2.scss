@@ -3,14 +3,15 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 10px;
-	background: #fefefe;
+	color: #fefefe;
+	background: #333333;
 	a {
 		text-decoration: none;
 		text-transform: uppercase;
-		color: #021927;
+		color: #fefefe;
 		transition: all 0.3s ease-in-out;
 		&:hover {
-			color: #c69e71;
+			color: #C6C6C6;
 			font-weight: 500;
 		}
 	}
@@ -46,17 +47,17 @@
 			top: 20px;
 			left: 0;
 			padding: 15px 0;
-			background: #777e83;
-			box-shadow: whitesmoke;
+			background: #C6C6C6;
+			box-shadow: #fefefe;
 			min-width: 150px;
 			a {
 				display: block;
-				color: #1b1b1b;
+				color: #333333;
 				font-size: 0.9rem;
 				padding: 10px;
 				&:hover {
-					color: #c69e71;
-					background: whitesmoke;
+					color: #333333;
+					background: #fefefe;
 				}
 			}
 		}

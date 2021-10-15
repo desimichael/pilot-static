@@ -2,17 +2,17 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: #303030;
-	background: #fefefe;
+	color: #fefefe;
+	background: #333333;
 	padding: 0 10px;
 	height: 84px;
 	a {
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: 500;
-		color: #303030;
+		color: #fefefe;
 		&:hover {
-			color: #c69e71;
+			color: #C6C6C6;
 			transition: all 0.3s ease-in-out;
 		}
 	}
@@ -38,16 +38,16 @@
 			top: 20px;
 			left: 0;
 			padding: 15px 0;
-			background: #777e83;
+			background: #C6C6C6;
 			box-shadow: #fefefe;
 			min-width: 150px;
 			a {
 				display: block;
-				color: #303030;
+				color: #333333;
 				font-size: 0.9rem;
 				padding: 10px;
 				&:hover {
-					color: #c69e71;
+					color: #333333;
 					background: #fefefe;
 				}
 			}
