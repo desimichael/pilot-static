@@ -10,7 +10,7 @@ body {
 		.header {
 			background: transparent;
 			a {
-				color: #fefefe;
+				color: #ffffff;
 				transition: all 0.3s ease-in-out;
 				&:hover {
 					color: #C6C6C6;
@@ -20,8 +20,8 @@ body {
 			.header2__collection-link,
 			.header3__collection-link {
 				.collection-link__sub-links {
-					a {
-						color: #fefefe;
+					a {	
+						color: #333333;
 						&:hover {
 							color: #333333;
 						}
@@ -34,5 +34,67 @@ body {
 		position: fixed;
 		width: 100%;
 		z-index: 30;
+	}
+}
+
+
+// x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399px) {}
+
+
+// large devices (desktops, less than 1200px)
+@media (max-width: 1199px) { 
+
+	.collection1__product-title {
+		font-size: 1rem;
+	}
+	.collection3__product-title {
+		font-size: 0.7rem;
+	}
+	.collection3__product-img {
+		height: 450px;
+	}
+	.collection1__product-img img {
+		max-width: 65%;
+	}
+	.collection3__cart {
+		height: 30px;
+		width: 30px;
+		top: 6px;
+		right: 10px;
+	}
+	.collection3__cart .fa-opencart {
+		font-size: 1rem;
+	}
+}
+
+
+// medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+
+	.collection1__product-title {
+		font-size: 1rem;
+	}
+	
+	.collection2__product-title {
+		font-size: 1rem;
+	}
+	.collection3__product-title {
+		font-size: .8rem;
+	}
+}
+
+// small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+	}
+
+
+// x-small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { 
+	
+	.collection1__product-img--circle, .collection1__product-img--square {
+		width: 240px;
+		height: 240px;
+		margin: 3.5rem auto;
 	}
 }

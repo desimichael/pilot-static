@@ -86,16 +86,16 @@
 	&__button {
 		width: 150px;
 		color: #333333;
-		background-color: #fefefe;
+		background-color: #ffffff;
 		padding: 15px 30px;
 		text-align: center;
 		text-decoration: none;
 		font-weight: 700;
 		font-size: 0.9rem;
+		transition: all 0.3s ease-in-out;
 		&:hover {
-			color: #fefefe;
+			color: #ffffff;
 			background: #333333;
-			transition: all 0.3s ease-in-out;
 		}
 	}
 }

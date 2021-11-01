@@ -1,23 +1,6 @@
 export default function Footer(props) {
   return (<footer className={"footer"}>
     <div className="footer__newsletter">
-      <div className={"container"}>
-        <div className={"row"}>
-          <div className="col-md-12">
-            <div className="footer__newsletter-info">
-              <span>
-                Sign up to our newsletter
-                <br />
-                <p>for the latest <strong>news</strong> and <strong>exclusive</strong> deals.</p>
-              </span>
-              <div className="footer__newsletter-input-section">
-                <input className="footer__newsletter-input" type="text" name="email_newsletter" placeholder="YOUR EMAIL ADDRESS" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div className="container">
       <div className={"row"}>
         <div className={"col-md-9"}>
@@ -59,8 +42,16 @@ export default function Footer(props) {
         </div>
         <div className={"col-md-3"}>
           <div className="footer__extra">
-            <span className="footer__column-title">join the vip club</span>
-            <input type="text" name="email_vip" className="footer__input" placeholder="YOUR EMAIL ADDRESS" />
+            <span className="footer__column-title">
+              Sign Up For The Newsletter
+            </span>
+            <input className="footer__input" type="text" name="email_newsletter" placeholder="UserEmail@Company.Com" />
+            <button type="submit">
+              Subscribe
+            </button>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsam minus praesentium dolor placeat voluptatum quidem? Facere libero alias incidunt nesciunt, asperiores, amet cumque adipisci dignissimos corporis, beatae hic minima.
+              </p>
             <div className="footer__social-icons">
               <a href="#" className="footer__social-link">
                 <i className="fab fa-twitter"></i>
@@ -91,5 +82,6 @@ export default function Footer(props) {
         </div>
       </div>
     </div>
+  </div>
   </footer>);
 }

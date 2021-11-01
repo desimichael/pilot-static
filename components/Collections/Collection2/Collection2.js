@@ -5,11 +5,11 @@ export default function collection2() {
         <div className="row">
           <div className="col-md-6">
             <div className="collection2__collection-item">
-              <div className="collection2__heart">
-                <i className="far fa-heart"></i>
+              <div className="collection2__cart">
+                <i className="fab fa-opencart"></i>
               </div>
               <div className="collection2__sale-banner">
-                <span className="collection2__sale collection2__sale--active">
+                <span className="collection2__sale">
                   sale
                 </span>
               </div>
@@ -35,8 +35,8 @@ export default function collection2() {
           </div>
           <div className="col-md-6">
             <div className="collection2__collection-item">
-              <div className="collection2__heart">
-                <i className="far fa-heart"></i>
+              <div className="collection2__cart">
+                <i className="fab fa-opencart"></i>
               </div>
               <div className="collection2__sale-banner">
                 <span className="collection2__sale">

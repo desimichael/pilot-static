@@ -27,7 +27,7 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		color: #fefefe;
+		color: #ffffff;
 		background-color: rgba(0, 0, 0, 0.5);
 		z-index: 3;
 		display: flex;
@@ -51,7 +51,7 @@
 	}
 	&__title {
 		font-size: 4.5rem;
-		color: #fefefe;
+		color: #ffffff;
 		text-transform: capitalize;
 		font-family: "Lobster Two", cursive;
 	}
@@ -74,7 +74,7 @@
 	}
 	&__button {
 		width: 150px;
-		color: #fefefe;
+		color: #ffffff;
 		background-color: #333333;
 		padding: 15px 30px;
 		text-align: center;
@@ -83,7 +83,7 @@
 		font-size: 0.9rem;
 		&:hover {
 			color: #333333;
-			background: #fefefe;
+			background: #ffffff;
 			transition: all 0.3s ease-in-out;
 		}
 	}

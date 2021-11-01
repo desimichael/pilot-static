@@ -3,10 +3,10 @@ export default function Collection3() {
     <div className="collection collection3">
       <div className="container">
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12">
             <div className="collection3__collection-item">
-              <div className="collection3__heart">
-                <i className="far fa-heart"></i>
+              <div className="collection3__cart">
+                <i className="fab fa-opencart"></i>
               </div>
               <div className="collection3__sale-banner">
                 <span className="collection3__sale">
@@ -28,17 +28,17 @@ export default function Collection3() {
                     $200
                   </span>
                 </div>
-                <div className="collection2__colors">
-                  <div className="collection2__color collection2__color--red"></div>
-                  <div className="collection2__color collection2__color--green"></div>
+                <div className="collection3__colors">
+                  <div className="collection3__color collection3__color--red"></div>
+                  <div className="collection3__color collection3__color--green"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12">
             <div className="collection3__collection-item">
-              <div className="collection3__heart">
-                <i className="far fa-heart"></i>
+              <div className="collection3__cart">
+                <i className="fab fa-opencart"></i>
               </div>
               <div className="collection3__sale-banner">
                 <span className="collection3__sale">
@@ -60,17 +60,17 @@ export default function Collection3() {
                     $200
                   </span>
                 </div>
-                <div className="collection2__colors">
-                  <div className="collection2__color collection2__color--red"></div>
-                  <div className="collection2__color collection2__color--green"></div>
+                <div className="collection3__colors">
+                  <div className="collection3__color collection3__color--red"></div>
+                  <div className="collection3__color collection3__color--green"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12">
             <div className="collection3__collection-item">
-              <div className="collection3__heart">
-                <i className="far fa-heart"></i>
+              <div className="collection3__cart">
+                <i className="fab fa-opencart"></i>
               </div>
               <div className="collection3__sale-banner">
                 <span className="collection3__sale">
@@ -92,17 +92,17 @@ export default function Collection3() {
                     $200
                   </span>
                 </div>
-                <div className="collection2__colors">
-                  <div className="collection2__color collection2__color--red"></div>
-                  <div className="collection2__color collection2__color--green"></div>
+                <div className="collection3__colors">
+                  <div className="collection3__color collection3__color--red"></div>
+                  <div className="collection3__color collection3__color--green"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12">
             <div className="collection3__collection-item">
-              <div className="collection3__heart">
-                <i className="far fa-heart"></i>
+              <div className="collection3__cart">
+                <i className="fab fa-opencart"></i>
               </div>
               <div className="collection3__sale-banner">
                 <span className="collection3__sale">
@@ -124,9 +124,9 @@ export default function Collection3() {
                     $200
                   </span>
                 </div>
-                <div className="collection2__colors">
-                  <div className="collection2__color collection2__color--red"></div>
-                  <div className="collection2__color collection2__color--green"></div>
+                <div className="collection3__colors">
+                  <div className="collection3__color collection3__color--red"></div>
+                  <div className="collection3__color collection3__color--green"></div>
                 </div>
               </div>
             </div>
