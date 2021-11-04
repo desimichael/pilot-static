@@ -4,13 +4,13 @@
 	align-items: center;
 	padding: 20px 10px;
 	color: #ffffff;
-	background: #333333;
+	background: #000000;
 	a {
 		text-decoration: none;
 		text-transform: uppercase;
 		color: #ffffff;
 		&:hover {
-			color: #C6C6C6;
+			color: #d3d3d3;
 			transition: all 0.3s ease-in-out;
 			font-weight: 500;
 		}
@@ -47,7 +47,6 @@
 				font-size: 0.9rem;
 				padding: 10px;
 				&:hover {
-					color: #333333;
 					background: #ffffff;
 				}
 			}

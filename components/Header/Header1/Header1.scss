@@ -3,9 +3,10 @@
 	justify-content: space-between;
 	align-items: center;
 	color: #ffffff;
-	background: #333333;
+	background: #000000;
 	padding: 0 10px;
 	height: 84px;
+	transition: all 0.3s ease-in-out;
 	a {
 		text-decoration: none;
 		text-transform: uppercase;
@@ -13,7 +14,7 @@
 		color: #ffffff;
 		transition: all 0.3s ease-in-out;
 		&:hover {
-			color: #333333;
+			color: #d3d3d3;
 		}
 	}
 	&__collections-nav {
@@ -27,7 +28,6 @@
 	&__collection-link {
 		display: inline-block;
 		position: relative;
-		transition: all 0.3s ease-in-out;
 		i {
 			margin-left: 5px;
 		}

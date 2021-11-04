@@ -4,14 +4,15 @@
 	align-items: center;
 	padding: 20px 10px;
 	color: #ffffff;
-	background: #333333;
+	background: #000000;
+	transition: all 0.3s ease-in-out;
 	a {
 		text-decoration: none;
 		text-transform: uppercase;
 		color: #ffffff;
 		transition: all 0.3s ease-in-out;
 		&:hover {
-			color: #C6C6C6;
+			color: #d3d3d3;
 			font-weight: 500;
 		}
 	}
@@ -36,7 +37,6 @@
 	&__collection-link {
 		display: inline-block;
 		position: relative;
-		transition: all 0.3s ease-in-out;
 		i {
 			margin-left: 5px;
 		}
@@ -56,7 +56,6 @@
 				font-size: 0.9rem;
 				padding: 10px;
 				&:hover {
-					color: #333333;
 					background: #ffffff;
 				}
 			}
