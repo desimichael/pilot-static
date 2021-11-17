@@ -1,10 +1,19 @@
-@use "./reset";
-@use "../components/components";
-@use "./bootstrap/scss/bootstrap.scss";
+@use './reset';
+@use '../components/components';
+@use './bootstrap/scss/bootstrap.scss';
 
-// body {
-// 	background: #EEEEEE;
-// }
+// Variables
+:root {
+	--body-bg: #EEEEEE;
+	--announce-bar-default: #000000;
+}
+
+
+
+body {
+	background-color: var(--body-bg);
+}
+
 .fixed-nav {
 	.header {
 		position: fixed;
@@ -25,7 +34,7 @@
 			.header2__collection-link,
 			.header3__collection-link {
 				.collection-link__sub-links {
-					a {
+					a {	
 						color: #333333;
 						&:hover {
 							color: #333333;
@@ -39,59 +48,57 @@
 		display: none;
 	}
 }
-// .transparent-nav {
-// 		.header {
-// 			background: transparent;
-// 			position: absolute;
-// 			width: 100%;
-// 			z-index: 30;
-// 			a {
-// 				color: #ffffff;
-// 				transition: all 0.3s ease-in-out;
-// 				&:hover {
-// 					color: #d3d3d3;
-// 				}
-// 			}
-// 			.header1__collection-link,
-// 			.header2__collection-link,
-// 			.header3__collection-link {
-// 				.collection-link__sub-links {
-// 					a {
-// 						color: #333333;
-// 						&:hover {
-// 							color: #333333;
-// 						}
-// 					}
-// 				}
-// 			}
-// 		}
-// 	}
-// 	.hamburger {
-// 		display: none;
-// 	}
-// x-large devices (large desktops, less than 1400px)
-@media (min-width: 1200px) and (max-width: 1399px) {
+.transparent-nav {
+	.header {
+		position: absolute;
+		background: transparent;
+		width: 100%;
+		z-index: 30;
+		a {
+				color: #ffffff;
+				transition: all 0.3s ease-in-out;
+				&:hover {
+					color: #d3d3d3;
+				}
+			}
+			.header1__collection-link,
+			.header2__collection-link,
+			.header3__collection-link {
+				.collection-link__sub-links {
+					a {	
+						color: #333333;
+						&:hover {
+							color: #333333;
+						}
+					}
+				}
+			}
+	}
+	.hamburger {
+		display: none;
+	}
 }
 
+
+// x-large devices (large desktops, less than 1400px)
+@media (min-width: 1399px) {
+}
+
+
 // large devices (desktops, less than 1200px)
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 1199px) { 
+	
 	.collection1__product-title {
 		font-size: 1rem;
-	}
-	.collection1__product-img img {
-		max-width: 65%;
-	}
-	.collection1__product-img--circle {
-		width: 325px;
-		height: 325px;
-		border-radius: 50%;
-		margin: 3.5rem auto;
 	}
 	.collection3__product-title {
 		font-size: 0.7rem;
 	}
 	.collection3__product-img {
 		height: 450px;
+	}
+	.collection1__product-img img {
+		max-width: 65%;
 	}
 	.collection3__cart {
 		height: 30px;
@@ -104,8 +111,10 @@
 	}
 }
 
+
 // medium devices (tablets, less than 992px)
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
+	
 	.collection1__product-title {
 		font-size: 1rem;
 	}
@@ -114,13 +123,14 @@
 		font-size: 1rem;
 	}
 	.collection3__product-title {
-		font-size: 0.8rem;
+		font-size: .8rem;
 	}
 }
 
 // small devices (landscape phones, less than 768px)
 @media (max-width: 767px) {
-	.header1__collections-nav,
+	
+	.header1__collections-nav, 
 	.header2__collections-nav,
 	.header3__collections-nav {
 		display: none;
@@ -132,27 +142,24 @@
 			display: block;
 			padding: 5px;
 			cursor: pointer;
-			.bar {
-				background: #ffffff;
-				display: block;
-				width: 30px;
-				height: 3px;
-				margin: 5px auto;
-				transition: all 0.3s ease-in-out;
-			}
 		}
 	}
-
-	.hero1__title--md {
-		font-size: 3rem;
+	.bar {
+		background: #ffffff;
+		display: block;
+		width: 30px;
+		height: 3px;
+		margin: 5px auto;
+		transition: all 0.3s ease-in-out;
 	}
+	
 	.hero1__paragraph {
 		padding: 1.5rem 2.5rem;
 		font-size: 1rem;
 	}
-
+	
 	.hero2 {
-		flex-direction: column;
+		  flex-direction: column;
 	}
 	.hero2 .hero2__collection1,
 	.hero2 .hero2__collection2 {
@@ -166,12 +173,8 @@
 		justify-content: center;
 		padding-left: 0;
 	}
-	.product-highlight1__img {
-		margin-bottom: 2.5rem;
-	}
 
-	.collection1__product-img--circle,
-	.collection1__product-img--square {
+	.collection1__product-img--circle, .collection1__product-img--square {
 		width: 240px;
 		height: 240px;
 		margin: 3.5rem auto;

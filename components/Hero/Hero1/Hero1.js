@@ -1,6 +1,6 @@
 export default function Hero1() {
   return (
-    <div className="hero hero1 hero1--aligned-center hero1--100vh">
+    <div className="hero hero1  hero1--100vh">
       <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" className="hero1__bg" />
       <div className="hero1__content-container">
         <div className="hero1__info">
@@ -8,6 +8,7 @@ export default function Hero1() {
           <p className="hero1__paragraph">
             Hero1
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem quia blanditiis assumenda voluptatum sequi iusto ducimus vero omnis quaerat?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet at ratione quas minima rerum nulla vero error alias vitae esse?
           </p>
           <a href="#" className="hero1__button">View More</a>
         </div>

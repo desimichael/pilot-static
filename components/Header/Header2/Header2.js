@@ -35,6 +35,11 @@ export default function Header2() {
           <a href="/link">Link</a>
         </li>
       </ul>
+      <div className="hamburger">
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </div>
       <div className="header2__collections-nav">
         <a href="/cart"><i className="fas fa-shopping-cart"></i></a>
         <a href="/link"><i className="fas fa-user"></i></a>

@@ -35,6 +35,11 @@ export default function Header1() {
       <div className="header1__logo">
         <a href="/link">Pilot</a>
       </div>
+      <div className="hamburger">
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </div>
       <ul className="header1__collections-nav">
         <li className="header1__collection-link">
           <a href="/link">
@@ -65,8 +70,12 @@ export default function Header1() {
         <li className="header1__collection-link">
           <a href="/link">Link</a>
         </li>
-        <a href="/cart"><i className="fas fa-shopping-cart"></i></a>
-        <a href="/link"><i className="fas fa-user"></i></a>
+        <a href="/cart">
+          <i className="fas fa-shopping-cart"></i>
+        </a>
+        <a href="/link">
+          <i className="fas fa-user"></i>
+        </a>
       </ul>
     </header>
   )
